@@ -1,0 +1,7 @@
+
+.history
+/node_modules
+.history
+/lib
+node_modules/@babel/core/node_modules/source-map/lib/source-node.js
+lib/index.esm.js
