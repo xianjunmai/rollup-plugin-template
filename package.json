@@ -17,7 +17,7 @@
     "install:main-vite": "cd dev/main-vite && yarn",
     "main-vite": "cd dev/main-vite && yarn start",
     "docs": "docsify serve docs --port 2000",
-    "lint": "eslint --cache '**/*.{js,ts}'",
+    "lint": "eslint --cache **/*.{js,ts}",
     "lint:fix": "yarn lint --fix",
     "createtype": "node scripts/create_type.js",
     "afterbuild": "node scripts/after_build.js",

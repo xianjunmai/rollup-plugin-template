@@ -1,1 +1,2 @@
-console.log(123)
+import { Hello } from './hello'
+Hello()

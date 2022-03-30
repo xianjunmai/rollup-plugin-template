@@ -38,7 +38,7 @@ const commonPlugins = [
 
 // 通用配置
 const baseConfig = {
-  input: path.join(__dirname, 'src/index.ts'),
+  input: path.join(__dirname, 'src/index.js'),
   external: [
     /@babel\/runtime/,
   ].filter(Boolean),
@@ -55,7 +55,7 @@ const esConfig = Object.assign({}, baseConfig, {
     {
       file: path.join(__dirname, 'lib/index.esm.js'),
       format: 'es',
-      sourcemap: true
+      sourcemap: false
     }
   ],
 })
